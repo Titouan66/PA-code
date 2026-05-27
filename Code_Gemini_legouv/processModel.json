@@ -1,0 +1,12 @@
+{
+    "creator_sequence": [
+        "init_account",
+        "build_network",
+        "diffuse"
+    ],
+    "amplifier_sequence": [
+        "init_account",
+        "build_network",
+        "retweet"
+    ]
+}
