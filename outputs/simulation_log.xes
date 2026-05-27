@@ -7,7 +7,7 @@
         <event>
             <string key="concept:name" value="Créer compte fictif"/>
             <string key="concept:instance" value="T0008"/>
-            <date key="time:timestamp" value="2026-05-20T22:45:31Z"/>
+            <date key="time:timestamp" value="2026-05-27T03:53:53Z"/>
             <string key="source_file" value="account.js, device-token.js, ip-audit.js"/>
             <string key="username" value="Creator_0"/>
         </event>
@@ -20,7 +20,7 @@
         <event>
             <string key="concept:name" value="Diffuser narratif"/>
             <string key="concept:instance" value="T0114.001"/>
-            <date key="time:timestamp" value="2026-05-20T23:12:13Z"/>
+            <date key="time:timestamp" value="2026-05-27T04:31:58Z"/>
             <string key="source_file" value="tweets.js"/>
             <string key="tweet_id" value="post_acc_c_0"/>
         </event>
@@ -30,7 +30,7 @@
         <event>
             <string key="concept:name" value="Créer compte fictif"/>
             <string key="concept:instance" value="T0008"/>
-            <date key="time:timestamp" value="2026-05-20T16:24:57Z"/>
+            <date key="time:timestamp" value="2026-05-24T09:42:28Z"/>
             <string key="source_file" value="account.js, device-token.js, ip-audit.js"/>
             <string key="username" value="Amplifier_0_0"/>
         </event>
@@ -43,7 +43,7 @@
         <event>
             <string key="concept:name" value="Amplifier narratif"/>
             <string key="concept:instance" value="T0039"/>
-            <date key="time:timestamp" value="2026-05-20T23:16:40Z"/>
+            <date key="time:timestamp" value="2026-05-27T04:49:08Z"/>
             <string key="source_file" value="tweets.js"/>
             <string key="tweet_id" value="tweet_acc_a_0_0"/>
             <string key="retweet_of" value="post_acc_c_0"/>
