@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1.0" xes.features="" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+    <extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+    <extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+    <trace>
+        <string key="concept:name" value="acc_c_0"/>
+        <event>
+            <string key="concept:name" value="Créer compte fictif"/>
+            <string key="concept:instance" value="T0008"/>
+            <date key="time:timestamp" value="2026-05-20T22:45:31Z"/>
+            <string key="source_file" value="account.js, device-token.js, ip-audit.js"/>
+            <string key="username" value="Creator_0"/>
+        </event>
+        <event>
+            <string key="concept:name" value="Constituer réseau d'abonnés"/>
+            <string key="concept:instance" value="T0092"/>
+            <string key="source_file" value="following.js"/>
+            <string key="target_link" value="twitter.com/intent/user?user_id=target_alpha_123"/>
+        </event>
+        <event>
+            <string key="concept:name" value="Diffuser narratif"/>
+            <string key="concept:instance" value="T0114.001"/>
+            <date key="time:timestamp" value="2026-05-20T23:12:13Z"/>
+            <string key="source_file" value="tweets.js"/>
+            <string key="tweet_id" value="post_acc_c_0"/>
+        </event>
+    </trace>
+    <trace>
+        <string key="concept:name" value="acc_a_0_0"/>
+        <event>
+            <string key="concept:name" value="Créer compte fictif"/>
+            <string key="concept:instance" value="T0008"/>
+            <date key="time:timestamp" value="2026-05-20T16:24:57Z"/>
+            <string key="source_file" value="account.js, device-token.js, ip-audit.js"/>
+            <string key="username" value="Amplifier_0_0"/>
+        </event>
+        <event>
+            <string key="concept:name" value="Constituer réseau d'abonnés"/>
+            <string key="concept:instance" value="T0092"/>
+            <string key="source_file" value="following.js"/>
+            <string key="target_link" value="twitter.com/intent/user?user_id=acc_c_0"/>
+        </event>
+        <event>
+            <string key="concept:name" value="Amplifier narratif"/>
+            <string key="concept:instance" value="T0039"/>
+            <date key="time:timestamp" value="2026-05-20T23:16:40Z"/>
+            <string key="source_file" value="tweets.js"/>
+            <string key="tweet_id" value="tweet_acc_a_0_0"/>
+            <string key="retweet_of" value="post_acc_c_0"/>
+        </event>
+    </trace>
+</log>
